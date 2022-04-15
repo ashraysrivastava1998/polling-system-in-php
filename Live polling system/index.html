@@ -1,0 +1,373 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: -o-linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.navbar {
+  width: 100%;
+  background-color: black;
+  
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: BB583E;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Asap&family=Roboto:ital,wght@0,500;0,900;1,500&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Asap", sans-serif;
+  background-color: #fdfdfe;
+}
+*{
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+}
+header h1 {
+  position: relative;
+  left: 10%;
+  width: 90%;
+  font-size: 60px;
+  font-weight: 600;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;   
+}
+header .header-1{
+  background-image: repeating-radial-gradient(closest-side at 20px 20px,#553c9a, #ee4b2b, #553c9a);
+}
+
+
+
+
+
+
+
+/*slider*/
+
+
+
+
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+.fcc-btn {
+  background-color: black;
+  color: white;
+  margin-left: 40%;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.fcc-btn:hover {
+  background-color: BB583E;
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+    <header>
+        <h1 class="header-1">Online Voting system</h1>
+      </header>
+
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+  <a href="https://www.pw.live/"><i class="fa fa-fw fa-envelope"></i> Official Website</a> 
+  <a href="home.php"><i class="fa fa-fw fa-user"></i> Click Here to Vote</a>
+</div> 
+
+<br>
+<br>
+<br>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="pictures/slide1.png" style="width:100%">
+      <div class="text"></div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="pictures/slide2.jpg.crdownload" style="width:100%">
+      <div class="text"></div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="pictures/1.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)"><<</a>
+    <a class="next" onclick="plusSlides(1)">>></a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <hr>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+    <a class="fcc-btn" href="home.php">Click Here to Vote</a>
+
+
+
+
+<hr>
+
+
+
+
+
+
+
+
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html> 
